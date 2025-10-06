@@ -2,7 +2,10 @@
   "name": "apinosql",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./server.js"
+  },
   "keywords": [],
   "author": "André Milani",
   "license": "ISC",
